@@ -1,0 +1,8 @@
+index:
+    path: /
+    controller: App\Controller\HomeController::index
+
+pages_id:
+    path: /pages/{id}
+    controller: App\Controller\PagesApiController::getUserInfo
+    methods:    GET
